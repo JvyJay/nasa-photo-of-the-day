@@ -23,6 +23,23 @@
   color: #61dafb;
 }
 
+.cardContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%
+}
+
+.card {
+  width: 50%;
+}
+
+.img {
+  width: 80%;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
